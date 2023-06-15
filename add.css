@@ -1,0 +1,42 @@
+#head {
+    color: blue;
+    text-align: center;
+}
+
+form {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#sign {
+    text-align: center;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+form input::placeholder {
+    color: gray;
+    font-style: italic;
+}
+
+#preview {
+    text-align: center;
+    font-size: 50px;
+}
+#txt {
+    text-align: center;
+}
+
+#sub {
+    background-color: rgb(109, 255, 109);
+    border-radius: 20%;
+    border-color: rgb(109, 255, 109);
+}
